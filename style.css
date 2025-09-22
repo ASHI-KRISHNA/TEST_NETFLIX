@@ -97,3 +97,16 @@ body {
     border: 1px solid red;
     margin-left: 2%;
 }
+#get-started-button:hover {
+    background-color: rgba(255, 0, 0, 0.8);
+}
+#content-list{
+    background-color: black;
+}
+#content-images{
+    margin: 86px;
+}
+.content-image{
+    width: 200px;
+    padding: 10px;
+}
