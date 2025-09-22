@@ -1,18 +1,21 @@
-body{
+body {
     margin: 0px;
     padding: 0px;
     background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/c95abc7a-8124-4630-bb7a-3b160bdc6de3/web/IN-en-20250915-TRIFECTA-perspective_d3d87aa7-58ed-4c6b-98dc-231ed05ba675_medium.jpg');
     background-size: cover;
 }
-#top-bar{
+
+#top-bar {
     background-color: rgba(0, 0, 0, 0.8);
 }
-#logo{
+
+#logo {
     width: 150px;
     height: 100px;
     margin-left: 10%;
 }
-#country-select{
+
+#country-select {
     position: absolute;
     margin-left: 40%;
     margin-top: 35px;
@@ -24,7 +27,8 @@ body{
     border-radius: 10px;
     text-align: center;
 }
-#login-button{
+
+#login-button {
     position: absolute;
     margin-top: 35px;
     margin-left: 55%;
@@ -37,6 +41,59 @@ body{
 
 
 }
-#login-button:hover{
+
+#login-button:hover {
     background-color: rgba(255, 0, 0, 0.8);
+}
+
+#main-content {
+    margin: 0%;
+    padding: 0%;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 500px;
+}
+
+#main-heading {
+    margin: 0%;
+    text-align: center;
+    font-size: 60px;
+    color: whitesmoke;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    padding-top: 80px;
+}
+
+#price-detail {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+}
+
+#p1 {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+}
+
+#email-input {
+    margin-left: 30%;
+    width: 20%;
+    height: 10%;
+    text-align: left;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+#get-started-button {
+    margin-left: 2%;
+    width: 10%;
+    height: 10%;
+    background-color: #ff0000;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10%;
+    border: 1px solid red;
+    margin-left: 2%;
 }
